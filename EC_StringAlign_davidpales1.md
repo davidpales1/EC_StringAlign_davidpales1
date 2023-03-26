@@ -12,11 +12,7 @@ Given a string and width, center the string within the width
 * Learn how to center content within a container; focus on the horizontal alignment
 # Deliverables
 * Document
-    * FileName: EC_StringAlign_<userid>.md
     * Contents
-        * GitHub Repository URL
-        * Lessons Learned
-        * References - ALL URL's used to build the solution
 * Worksheet
     * FileName: EC_StringAlign_<userid>.xlsx
     * Contents
@@ -32,11 +28,8 @@ https://github.com/davidpales1/EC_StringAlign_davidpales1
 # Lessons Learned:
 To center a string within a given width, I need to calculate the number of spaces needed to be added before and after the string. The total number of spaces will be the difference between the given width and the length of the string, divided by 2. I can then use a loop to add the calculated number of spaces before and after the string to center it within the given width. In this exercise, I learned how to center a string within a given width by calculating the number of spaces needed to be added before and after the string. I also learned how to use loops to add the required number of spaces and how to handle the case when the width is an odd number.
 
-## Overview of the assignment:
- 
-
 # References:
-C++ string: https://www.cplusplus.com/reference/string/
-C++ getline: https://www.cplusplus.com/reference/string/string/getline/
-C++ loops: https://www.cplusplus.com/doc/tutorial/control/
-C++ modulus operator: https://www.cplusplus.com/doc/tutorial/operators/
+- C++ string: https://www.cplusplus.com/reference/string/
+- C++ getline: https://www.cplusplus.com/reference/string/string/getline/
+- C++ loops: https://www.cplusplus.com/doc/tutorial/control/
+- C++ modulus operator: https://www.cplusplus.com/doc/tutorial/operators/
