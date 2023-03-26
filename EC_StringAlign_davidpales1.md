@@ -26,20 +26,17 @@ Given a string and width, center the string within the width
             * Visual Example for each Input described in "T" Table
 
 
-
-Solution:
-To center a string within a given width, I need to calculate the number of spaces needed to be added before and after the string. The total number of spaces will be the difference between the given width and the length of the string, divided by 2. I can then use a loop to add the calculated number of spaces before and after the string to center it within the given width.
-the expected output for the sample inputs:
-String: Yes; Width: 12
-   Yes      
-String: No; Width: 19
-      No         
-GitHub Repository URL:
+# GitHub Repository URL:
 https://github.com/davidpales1/EC_StringAlign_davidpales1
 
-Lessons Learned:
+# Lessons Learned:
 In this exercise, I learned how to center a string within a given width by calculating the number of spaces needed to be added before and after the string. I also learned how to use loops to add the required number of spaces and how to handle the case when the width is an odd number.
-References - ALL URL's used to build the solution:
+
+# Overview of the assignment:
+To center a string within a given width, I need to calculate the number of spaces needed to be added before and after the string. The total number of spaces will be the difference between the given width and the length of the string, divided by 2. I can then use a loop to add the calculated number of spaces before and after the string to center it within the given width.   
+
+# References - ALL URL's used to build the solution:
+
 C++ string: https://www.cplusplus.com/reference/string/
 C++ getline: https://www.cplusplus.com/reference/string/string/getline/
 C++ loops: https://www.cplusplus.com/doc/tutorial/control/
