@@ -11,8 +11,6 @@ Given a string and width, center the string within the width
 * Char Array or String Stream might help
 * Learn how to center content within a container; focus on the horizontal alignment
 # Deliverables
-* Document
-    * Contents
 * Worksheet
     * FileName: EC_StringAlign_<userid>.xlsx
     * Contents
