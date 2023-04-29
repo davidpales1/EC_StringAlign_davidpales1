@@ -18,8 +18,12 @@ int main()
     std::cout << "Enter width: ";
     std::cin >> width;
 
+    // If there is an odd number of spaces, add one more space at the end
+    if ((width) % 2 != 0) {
+        width = width + 1;
+    }
     // Calculate the number of spaces needed to center the string
-    int spaces = (width - input.length()) / 2;
+    int spaces = width / 2;
 
     // Print the first half of the space string
     for (int i = 0; i < spaces; i++) {
@@ -29,10 +33,6 @@ int main()
     std::cout << input;
     // Print the secound half of the space string
     for (int i = 0; i < spaces; i++) {
-        std::cout << " ";
-    }
-    // If there is an odd number of spaces, add one more space at the end
-    if ((width - input.length()) % 2 != 0) {
         std::cout << " ";
     }
 
